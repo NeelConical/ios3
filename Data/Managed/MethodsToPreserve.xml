@@ -1,0 +1,103 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="AudioButton">
+			<method name="ChangePause"/>
+			<method name="ChangePlay"/>
+		</type>
+		<type fullname="Controller">
+			<method name="instructionsFade"/>
+			<method name="ReturnMenu"/>
+		</type>
+		<type fullname="EnableInfo">
+			<method name="disablePane"/>
+			<method name="enablePane"/>
+		</type>
+		<type fullname="FadeInOut">
+			<method name="FadeIN"/>
+			<method name="FadeOUT"/>
+		</type>
+		<type fullname="MainMenu">
+			<method name="AboutArtist"/>
+			<method name="AboutArtist"/>
+			<method name="AboutArtist"/>
+			<method name="OpenWebsite"/>
+			<method name="OpenWebsite"/>
+			<method name="PlayGame"/>
+			<method name="PlayGame"/>
+			<method name="PlayGame"/>
+			<method name="PlayGame"/>
+			<method name="ReturnMenu"/>
+			<method name="ReturnMenu"/>
+			<method name="SculptureMenu"/>
+			<method name="SculptureMenu"/>
+			<method name="SculptureMenu"/>
+		</type>
+		<type fullname="onhit">
+			<method name="OnInteractiveHitTest"/>
+		</type>
+		<type fullname="ScrubBarTimer">
+			<method name="OnScrubBarSliderMove"/>
+		</type>
+		<type fullname="SculpturePAge">
+			<method name="SculptureEight"/>
+			<method name="SculptureFive"/>
+			<method name="SculptureFour"/>
+			<method name="SculptureMain"/>
+			<method name="SculptureNine"/>
+			<method name="SculptureOne"/>
+			<method name="SculptureSeven"/>
+			<method name="SculptureSix"/>
+			<method name="SculptureTen"/>
+			<method name="SculptureThree"/>
+			<method name="SculptureTwo"/>
+		</type>
+		<type fullname="SculptureSpawn">
+			<method name="Moveup"/>
+		</type>
+		<type fullname="ShowOptions">
+			<method name="KeepOptions"/>
+			<method name="ShowOption"/>
+		</type>
+		<type fullname="TakePciture">
+			<method name="takePic"/>
+		</type>
+		<type fullname="VideoManager">
+			<method name="OnClick_Next"/>
+			<method name="ScrubBarHeadMove"/>
+			<method name="UpdateVolume"/>
+		</type>
+	</assembly>
+	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerPanel">
+			<method name="OnScrollbarClicked"/>
+			<method name="OnScrollbarClicked"/>
+			<method name="ResetDebugManager"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerUIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.AudioModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.AudioSource">
+			<method name="Pause"/>
+			<method name="Play"/>
+		</type>
+	</assembly>
+	<assembly fullname="Vuforia.Unity.Engine" ignoreIfMissing="1">
+		<type fullname="Vuforia.ContentPositioningBehaviour">
+			<method name="PositionContentAtPlaneAnchor"/>
+		</type>
+		<type fullname="Vuforia.PlaneFinderBehaviour">
+			<method name="PerformHitTest"/>
+		</type>
+	</assembly>
+</linker>
